@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
-    (options => options.UseSqlServer("Data Source = DESKTOP-IAL3CNH\\SQLEXPRESS;Database=MVCTeste;User Id=candidato;Password=Teste123"));
+    (options => options.UseSqlServer("Data Source = RI-DEV-03\\SQLEXPRESS;Database=MVCTeste;User Id=candidato;Password=Teste123"));
 
 var app = builder.Build();
 
